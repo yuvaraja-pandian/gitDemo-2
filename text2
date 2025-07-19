@@ -2,7 +2,7 @@
  * List of common JavaScript String methods with examples.
  */
 
-// charAt()
+// charAt()   yuvi
 console.log('hello'.charAt(1)); // "e"
 
 // charCodeAt()
