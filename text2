@@ -1,1 +1,93 @@
-create file two 
+/**
+ * List of common JavaScript String methods with examples.
+ */
+
+// charAt()
+console.log('hello'.charAt(1)); // "e"
+
+// charCodeAt()
+console.log('hello'.charCodeAt(1)); // 101
+
+// concat()
+console.log('hello'.concat(' world')); // "hello world"
+
+// includes()
+console.log('hello world'.includes('world')); // true
+
+// endsWith()
+console.log('hello world'.endsWith('world')); // true
+
+// indexOf()
+console.log('hello world'.indexOf('o')); // 4
+
+// lastIndexOf()
+console.log('hello world'.lastIndexOf('o')); // 7
+
+// localeCompare()
+console.log('a'.localeCompare('b')); // -1
+
+// match()
+console.log('hello'.match(/l/g)); // ["l", "l"]
+
+// matchAll()
+console.log(Array.from('hello'.matchAll(/l/g))); // [Array, Array]
+
+// normalize()
+console.log('\u0041\u006d\u00e9\u006c\u0069\u0065'.normalize()); // "Amélie"
+
+// padEnd()
+console.log('5'.padEnd(3, '0')); // "500"
+
+// padStart()
+console.log('5'.padStart(3, '0')); // "005"
+
+// repeat()
+console.log('ha'.repeat(3)); // "hahaha"
+
+// replace()
+console.log('hello world'.replace('world', 'there')); // "hello there"
+
+// replaceAll()
+console.log('foo foo'.replaceAll('foo', 'bar')); // "bar bar"
+
+// search()
+console.log('hello world'.search('world')); // 6
+
+// slice()
+console.log('hello world'.slice(0, 5)); // "hello"
+
+// split()
+console.log('a,b,c'.split(',')); // ["a", "b", "c"]
+
+// startsWith()
+console.log('hello world'.startsWith('hello')); // true
+
+// substring()
+console.log('hello world'.substring(0, 5)); // "hello"
+
+// toLocaleLowerCase()
+console.log('HELLO'.toLocaleLowerCase()); // "hello"
+
+// toLocaleUpperCase()
+console.log('hello'.toLocaleUpperCase()); // "HELLO"
+
+// toLowerCase()
+console.log('HELLO'.toLowerCase()); // "hello"
+
+// toUpperCase()
+console.log('hello'.toUpperCase()); // "HELLO"
+
+// toString()
+console.log((123).toString()); // "123"
+
+// trim()
+console.log('  hello  '.trim()); // "hello"
+
+// trimEnd()
+console.log('  hello  '.trimEnd()); // "  hello"
+
+// trimStart()
+console.log('  hello  '.trimStart()); // "hello  "
+
+// valueOf()
+console.log('hello'.valueOf()); // "hello"
